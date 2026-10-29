@@ -1,6 +1,5 @@
 using UnityEngine;
 using TMPro;
-using Unity.VisualScripting;
 
 public class UIControlsDisplay : MonoBehaviour
 {
@@ -39,10 +38,19 @@ public class UIControlsDisplay : MonoBehaviour
     {
         if (ControlManager.Instance != null && controlsText != null)
         {
-            controlsText.text = "<b>Current Controls<\b>\n\n" +
-                                "Move Left: <color = #FFEA00" + ControlManager.Instance.moveLeftKey.ToString() + "</color>\n>" + 
-                                "Move Right: <color=#FFEA00>" + ControlManager.Instance.moveRightKey.ToString() + "</color>\n" +
-                                "Jump: <color = #FFEA00" + ControlManager.Instance.jumpKey.ToString() + "</color>";
+            controlsText.text = "Current Controls\n\n" +
+                                "Move Left: " + ControlManager.Instance.moveLeftKey.ToString() + "\n" + 
+                                "Move Right: " + ControlManager.Instance.moveRightKey.ToString() + "\n" +
+                                "Jump: " + ControlManager.Instance.jumpKey.ToString();
+        }
+        else if (controlsText != null)
+        {
+            controlsText.text = "Current Controls\n\n" +
+                                "Move Left: A\n" + 
+                                "Move Right: D\n" + 
+                                "Jump: Spacebar";
         }
     }
 }
+//hi, if your're actually reading this, thanks! I spent alot of time writing all of this. \
+// also, please consider following me and my project on stardance!!

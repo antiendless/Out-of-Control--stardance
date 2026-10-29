@@ -109,7 +109,7 @@ public class playermovement : MonoBehaviour
         }
     }
 
-    void Respawn()
+    public void Respawn()
     {
         transform.position = spawnPosition;
         rb.linearVelocity = Vector2.zero; 
@@ -150,3 +150,4 @@ public class playermovement : MonoBehaviour
         }
     }
 }
+// hello! 
