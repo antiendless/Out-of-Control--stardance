@@ -1,4 +1,4 @@
-# Out of Control
+# Out of Control!
 
 *A chaotic indie arcade platformer where your controls change each level*
 
@@ -12,7 +12,7 @@
 5. Dash through the door trigger zones across Levels 1 to 5 to finish the game and come back to the main menu!
 
 ## 🕹️ About the game
-**Out of Control** is a 2D-arcade platformer rage game where your controls randomly change every level 
+**Out of Control!** is a 2D-arcade platformer rage game where your controls randomly change every level 
 
 ### Key Features
 * **Scrambled Inputs Matrix:** Directional and interaction button keys scramble dynamically across custom movement configurations.
